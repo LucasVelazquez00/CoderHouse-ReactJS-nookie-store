@@ -5,13 +5,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import * as bootstrap from 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Nav } from './Components/nav-bar';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    <Nav />
   </React.StrictMode>
 );
 

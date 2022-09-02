@@ -1,5 +1,6 @@
-import './nav-bar.css'
-export function Nav() {
+import './NavBar.css'
+import CartWidget from './CartWidget';
+const NavBar = () => {
     return (
       <>
       <nav className="navbar navbar-light nav-style">
@@ -8,10 +9,13 @@ export function Nav() {
       <li className='p-2 bd-highlight li-style'>PRENDAS</li>
       <li className='p-2 bd-highlight li-style'>CALZADOS</li>
       <li className='p-2 bd-highlight li-style'>ACCRESORIOS</li>
+      <div className='cart-div'><CartWidget/>0</div>
     </div>
   </nav>
   </>
     );
   }
+
+  export default NavBar;
 
   

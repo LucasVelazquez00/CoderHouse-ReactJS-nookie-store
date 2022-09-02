@@ -1,11 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
-import * as bootstrap from 'bootstrap';
+import NavBar from './Components/NavBar';
+import ItemListContainer from './Components/ItemListContainer';
 
 function App() {
   return (
     <>
-  </>
+    <NavBar />
+    <div className='div' >
+      <ItemListContainer name="Ernesto" trabajo="React JS"/>
+    </div>
+    </>
   );
 }
 
