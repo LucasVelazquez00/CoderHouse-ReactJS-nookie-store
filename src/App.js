@@ -1,11 +1,11 @@
 import './App.css';
-import NavBar from './Components/NavBar';
-import ItemListContainer from './Components/ItemListContainer';
+import NavBar from './Components/NavBar/NavBar';
+import ItemListContainer from './Components/ItemListContainer/ItemListContainer';
 
 function App() {
   return (
     <>
-    <NavBar />
+    <NavBar/>
     <div className='div' >
       <ItemListContainer name="Ernesto" trabajo="React JS"/>
     </div>
