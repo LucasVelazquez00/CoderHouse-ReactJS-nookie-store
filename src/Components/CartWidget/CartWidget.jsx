@@ -1,3 +1,5 @@
+//Compotente del carrito
+
 import { RiShoppingCartLine } from "@react-icons/all-files/ri/RiShoppingCartLine";
 
 const CartWidget = () =>{
