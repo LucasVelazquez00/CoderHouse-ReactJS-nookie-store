@@ -1,10 +1,10 @@
 const dataClothes = [
     {
         id:'1',
-        title:'aaa',
-        description:'vvv',
-        price:'a',
-        pictureUrl:'https://ibb.co/my3qdgh'
+        title:'Buzo Bones',
+        description:'Buzo de color negro con estampado de esqueleto estilo oversize ',
+        price:'5000ARS',
+        pictureUrl:'https://ibb.co/myxm4hT'
     },
     {
         id:'2',

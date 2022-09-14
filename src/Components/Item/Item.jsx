@@ -1,7 +1,7 @@
 import './Item.css';
 
 
-const Item = ({title, description, price, pictureUrl}) =>{
+const Item = ({title, price, pictureUrl}) =>{
     return(
         <div className="c-clothes">
         <div className="product">
@@ -10,9 +10,8 @@ const Item = ({title, description, price, pictureUrl}) =>{
             </div>
             <div className="text-product">
                 <h6>{title}</h6>
-                <p>{description}</p>
                 <span>Precio:{price}</span>
-                <button></button>
+                <button>Detalles</button>
             </div>
         </div>
         </div>

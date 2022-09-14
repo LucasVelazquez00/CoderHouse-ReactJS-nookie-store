@@ -26,7 +26,6 @@ const ItemList = () => {
         key={x.id}
         id={x.id}
         title={x.title}
-        description={x.description}
         price={x.price}
         pictureUrl={x.pictureUrl} />
     ))
