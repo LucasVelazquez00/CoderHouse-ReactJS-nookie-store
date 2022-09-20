@@ -1,34 +1,19 @@
-import { useEffect, useState } from 'react';
-import dataClothes from '../../Products/dataClothes';
-import fetchData from '../../Products/fetchData';
+
 import Item from '../Item/Item';
 
 
-const ItemList = () => {
+const ItemList = ({item}) => {
 
-        const [data, setData] = useState([]);
-
-        useEffect(()=>{
-
-            fetchData(2000, dataClothes)//esto me trae el array los productos
-            .then(resolve => setData(resolve))
-            .catch(error=> console.log(error))
-            
-
-        },[]);
-
-        
+console.log(item)
   return (
     <>
     {
-    data.map(x => (
+    item.map(x => (
         <Item 
-        key={x.id}
-        id={x.id}
-        title={x.title}
-        price={x.price}
-        pictureUrl={x.pictureUrl} />
-    ))
+          key={x.id}
+          data={x}
+        />
+      ))
     }
     </>
   );

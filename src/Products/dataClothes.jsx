@@ -1,87 +1,99 @@
 const dataClothes = [
     {
-        id:'1',
+        id:1,
         title:'Buzo Bones',
         description:'Buzo de color negro con estampado de esqueleto estilo oversize ',
         price:'5000ARS',
-        pictureUrl:'https://ibb.co/myxm4hT'
+        pictureUrl:'./img/buzo-bones.png',
+        category:'1'
     },
     {
-        id:'2',
-        title:'asc',
-        description:'asc',
+        id:2,
+        title:'buzo2',
+        description:'ascasdasdasda',
         price:'asc',
-        pictureUrl:'https://ibb.co/6s2q8xX'
+        pictureUrl:'../img/buzo-donnie.png',
+        category:'1'
     },
     {
-        id:'3',
-        title:'asc',
-        description:'asc',
+        id:3,
+        title:'buzo3',
+        description:'asasdasddddddddc',
         price:'asc',
-        pictureUrl:'https://ibb.co/7vfsmGx'
+        pictureUrl:'../img/buzo-jack.png',
+        category:'1'
     },
     {
-        id:'4',
-        title:'asc',
-        description:'asc',
+        id:4,
+        title:'buzo4',
+        description:'ascdfgdfgg',
         price:'ascasdehtfghfgh',
-        pictureUrl:'https://ibb.co/TwTcjTb'
+        pictureUrl:'../img/buzo-la-mort.png',
+        category:'1'
     },
     {
-        id:'5',
-        title:'asdehtfghfgh',
-        description:'asdehtfghfgh',
+        id:5,
+        title:'buzo5',
+        description:'asdehtffghfghfghghfgh',
         price:'asdehtfghfgh',
-        pictureUrl:'https://ibb.co/y4wM2ky'
+        pictureUrl:'../img/buzo-world.png',
+        category:'1'
     },
     {
-        id:'6',
-        title:'asdehtfghfgh',
-        description:'asdehtfghfgh',
+        id:6,
+        title:'buzo6',
+        description:'asdehtfghfghjgfhfgfghfgh',
         price:'asdehtfghfgh',
-        pictureUrl:'https://ibb.co/1n1HKhZ'
+        pictureUrl:'../img/camiseta-joey.png',
+        category:'3'
     },
     {
-        id:'7',
-        title:'asdehtfghfgh',
+        id:7,
+        title:'falda',
         description:'asdehtfghfgh',
         price:'asdehtfghfgh',
-        pictureUrl:'https://ibb.co/Ytjgf67'
+        pictureUrl:'../img/falda-brody-amarilla.png',
+        category:'2'
     },
     {
-        id:'8',
-        title:'asdehtfghfgh',
+        id:8,
+        title:'falda',
         description:'asdehtfghfgh',
         price:'asdehtfghfgh',
-        pictureUrl:'https://ibb.co/6PMM2Tn'
+        pictureUrl:'../img/falda-brody-rayas.png',
+        category:'2'
     },
     {
-        id:'9',
-        title:'asdehtfghfgh',
+        id:9,
+        title:'falda',
         description:'asdehtfghfgh',
         price:'asdehtfghfgh',
-        pictureUrl:'https://ibb.co/VqzrHgG'
+        pictureUrl:'../img/falda-escocesa-bw.png',
+        category:'2'
     },
     {
-        id:'10',
-        title:'asdehtfghfgh',
+        id:10,
+        title:'falda',
         description:'asdehtfghfgh',
         price:'asdehtfghfgh',
-        pictureUrl:'https://ibb.co/RS15Dnn'
+        pictureUrl:'../img/falda-escocesa-roja.png',
+        category:'2'
     },
     {
-        id:'11',
-        title:'asdehtfghfgh',
+        id:11,
+        title:'remera',
         description:'asdehtfghfgh',
         price:'asdehtfghfgh',
-        pictureUrl:'https://ibb.co/3Nstzf5'
+        pictureUrl:'../img/remera-kimono.png',
+        category:'3'
     },
     {
-        id:'12',
-        title:'asdehtfghfgh',
+        id:12,
+        title:'remera',
         description:'asdehtfghfgh',
         price:'asdehtfghfgh',
-        pictureUrl:'https://ibb.co/qRV5f5d'
+        pictureUrl:'../img/remera-stn.png',
+        category:'3'
     },
     
 ];

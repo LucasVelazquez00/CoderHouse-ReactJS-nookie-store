@@ -1,5 +1,5 @@
 
-const ItemDetail = ({item}) => {
+const ItemDetail = (item) => {
   return (
     <div>
         <h6>{item.title}</h6>
