@@ -8,7 +8,7 @@ const Item = ({data}) =>{
         <div className="c-clothes">
         <div className="product">
             <div className="img-product">
-                <img src={data.pictureUrl} alt="product" />
+                <img className='img' src={data.pictureUrl} alt="product" />
             </div>
             <div className="text-product">
                 <h6>{data.title}</h6>

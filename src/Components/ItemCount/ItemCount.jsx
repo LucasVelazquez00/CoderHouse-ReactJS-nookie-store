@@ -7,7 +7,7 @@ import { useState } from "react";
 const ItemCount = ({initial, stock, onAdd}) => {
 
 
-    const [ItemCount, setItemCount] = useState(initial);
+    const [ItemCount, setItemCount] = useState(0);
 
 
     const sumar = () => {

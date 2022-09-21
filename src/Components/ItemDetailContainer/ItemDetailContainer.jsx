@@ -6,9 +6,7 @@ import dataClothes from "../../Products/dataClothes";
 import ItemDetail from "../ItemDetail/ItemDetail";
 import { useParams } from "react-router-dom";
 const ItemListContainer = () => {
-  const onAdd = (ItemCount) => {
-    alert(ItemCount);
-  };
+
 
   const [item, setItem] = useState({});
 
@@ -29,10 +27,11 @@ const ItemListContainer = () => {
         price={item.price}
         pictureUrl={item.pictureUrl}
         id={item.id}
+        stock={item.stock}
       />
       {/*^^^item es un atributo de props^^^*/}
 
-      <ItemCount initial={1} stock={12} onAdd={onAdd} />
+      
     </>
   );
 };
