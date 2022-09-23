@@ -4,13 +4,13 @@ import ItemListContainer from './Components/ItemListContainer/ItemListContainer'
 import Footer from './Components/Footer/Footer';
 import ItemDetailContainer from './Components/ItemDetailContainer/ItemDetailContainer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { CartContext } from './Components/CartContext/CartContext';
+import CartContextProvider from './Components/CartContext/CartContext';
 import Cart from './Components/Cart/Cart';
 
 function App() {
   return (
     <>
-    <CartContext.Provider value={[]}>
+    <CartContextProvider>
     <BrowserRouter> 
     <NavBar/>
 
@@ -27,7 +27,7 @@ function App() {
     
     <Footer/>
     </BrowserRouter>
-    </CartContext.Provider>
+    </CartContextProvider>
     </>
   );
 }
