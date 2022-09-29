@@ -13,7 +13,7 @@ const ItemListContainer = () => {
   const {id} = useParams()
 
   useEffect(() => {
-    fetchData(2000, dataClothes.find((producto)=> producto.id == id)) //esto me trae el objeto especifico
+    fetchData(1000, dataClothes.find((producto)=> producto.id == id)) //esto me trae el objeto especifico
       .then((resolve) => setItem(resolve))
       .catch((error) => console.log(error));
   }, [id]);

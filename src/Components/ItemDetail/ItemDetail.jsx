@@ -9,6 +9,7 @@ const ItemDetail = ({item}) => {
   const [itemCount, setItemCount] = useState(0)
 
   const ctx = useContext (CartContext)
+    console.log(ctx)
 
   const onAdd = (qty) => {
     alert(`Se agregó ${qty} de este producto al carro`);

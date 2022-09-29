@@ -10,7 +10,8 @@ const CartContextProvider = ({ children }) => {
     const addItem = (product, qty) => {
         if (isInCart(product.id)){//aca iria si encuentra en el carrito
             setCartList(cartList.map(producto => producto.id == product.id? {...producto,quantity: producto.quantity + qty}:product))
-        }else{//Cuando no lo encuentra
+        }
+        else{//Cuando no lo encuentra
             product.quantity = qty
             setCartList([...cartList, product]);
         }
@@ -28,8 +29,15 @@ const CartContextProvider = ({ children }) => {
         return cartList.find((product)=> product.id == id);
     }
     
+  const sumar = (product) => {
+    if(isInCart(product.id)){
+        setCartList(cartList.map(producto => producto.price + product.price))
+        console.log(cartList);
+    }
+  }
+
     return (
-        <CartContext.Provider value={{cartList, addItem, clear, removeItem}}>
+        <CartContext.Provider value={{cartList, addItem, clear, removeItem, sumar}}>
             {children}
         </CartContext.Provider>
     );
