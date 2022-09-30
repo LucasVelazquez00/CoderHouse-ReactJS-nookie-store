@@ -1,9 +1,7 @@
 //componente que muestra los productos
 import React, { useEffect, useState } from "react";
 import ItemList from "../ItemList/ItemList";
-import dataClothes from "../../Products/dataClothes";
 import { useParams } from "react-router-dom";
-import fetchData from "../../Products/fetchData";
 import { db } from "../firebaseConfig/firebaseConfig";
 import { collection, getDocs, where, query} from "firebase/firestore";
 const ItemListContainer = (prop) => {
@@ -14,7 +12,7 @@ const ItemListContainer = (prop) => {
   const { category } = useParams();
   console.log(category);
 
-  useEffect(async () => {
+  useEffect(()=> async () => {
     if (category){
     const qery = query(collection(db, "productos"), where('category', '==', category))
     const querySnapshot = await getDocs(qery)

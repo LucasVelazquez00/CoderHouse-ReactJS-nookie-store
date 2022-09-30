@@ -1,10 +1,7 @@
-
 import Item from '../Item/Item';
-
 
 const ItemList = ({item}) => {
 
-console.log(item)
   return (
     <>
     {
@@ -18,5 +15,4 @@ console.log(item)
     </>
   );
 }
-
 export default ItemList
