@@ -14,7 +14,7 @@ function App() {
     <BrowserRouter> 
     <NavBar/>
 
-    <div className='div' >
+    <div className='div'>
       <Routes>
 
       <Route exact path='/' element={<ItemListContainer name="Ernesto" trabajo="React JS"/>}/>

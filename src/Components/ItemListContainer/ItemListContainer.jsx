@@ -12,7 +12,7 @@ const ItemListContainer = (prop) => {
   const { category } = useParams();
   console.log(category);
 
-  useEffect(()=> async () => {
+  useEffect(()=> {async function getData ()  {
     if (category){
     const qery = query(collection(db, "productos"), where('category', '==', category))
     const querySnapshot = await getDocs(qery)
@@ -32,7 +32,7 @@ const ItemListContainer = (prop) => {
     setData(dataFromFirestore)}
    
     
-  }, [category]);
+  } getData()}, [category]);
 
   return (
     <>
