@@ -32,6 +32,7 @@ const ItemListContainer = () => {
 
   return (
     <>
+    
       <ItemDetail
       item={item}
       />

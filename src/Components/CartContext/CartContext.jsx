@@ -35,9 +35,12 @@ const CartContextProvider = ({ children }) => {
         console.log(cartList);
     }
   }
+  const calcTotal = () =>{
+    console.log(calcTotal)//de prueba porque no lo hice todavia
+}
 
     return (
-        <CartContext.Provider value={{cartList, addItem, clear, removeItem, sumar}}>
+        <CartContext.Provider value={{cartList, addItem, clear, removeItem, sumar, calcTotal}}>
             {children}
         </CartContext.Provider>
     );
