@@ -16,19 +16,17 @@ const ItemListContainer = () => {
     const docSnap = await getDoc(docRef);
   
     if (docSnap.exists()) {
-      setItem(docSnap.data())
-      console.log("Document data:", docSnap.data());
+      let productObj = {
+        id: id,
+        ...docSnap.data()
+      }
+      setItem(productObj)
     } else {
       // doc.data() will be undefined in this case
       console.log("No such document!");
     }
     
   }, [id]);
-    /*() => {
-    fetchData(1000, dataClothes.find((producto)=> producto.id == id)) //esto me trae el objeto especifico
-      .then((resolve) => setItem(resolve))
-      .catch((error) => console.log(error));
-  }, [id]);*/
 
   return (
     <>

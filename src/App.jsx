@@ -17,8 +17,8 @@ function App() {
     <div className='div'>
       <Routes>
 
-      <Route exact path='/' element={<ItemListContainer name="Ernesto" trabajo="React JS"/>}/>
-      <Route path='/category/:category' element={<ItemListContainer name="Ernesto" trabajo="React JS"/>}/>
+      <Route exact path='/' element={<ItemListContainer name="Profe Alex" trabajo="React JS"/>}/>
+      <Route path='/category/:category' element={<ItemListContainer name="Profe Alex" trabajo="React JS"/>}/>
       <Route path='/item/:id' element={<ItemDetailContainer/>}/>
       <Route path='/cart' element={<Cart/>}/>
       

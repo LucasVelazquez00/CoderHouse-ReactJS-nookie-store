@@ -1,13 +1,88 @@
-.checkbox{
-display: flex;
+.title-cart{
+    padding: 1em 0 0 1em;
+
 }
+.b-h{
+    display: flex;
+    justify-content: space-around;
+    margin: 2em 0;
+
+}
+.click{
+    border: none;
+    background-color: antiquewhite;
+    border-radius: 4px;
+}
+.click:hover{
+    cursor: pointer;
+    background-color: wheat;
+}
+
+.checkbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 2em;
+}
+.products-buying{
+    display: grid;
+    grid-template-columns: 1fr;
+    list-style: none;
+}
+
 .buy-box{
-    border: solid 1px rgb(238, 238, 238);
-    width: 60%;
+    border: solid 3px rgb(46, 46, 46);
+    display: flex;
+    align-items: center;
+    width: 45em;
+    margin: 0.5em;
+}
+
+.click-2{
+    border: none;
+    background-color: antiquewhite;
+    border-radius: 4px;
+}
+.click-2:hover{
+    cursor: pointer;
+    background-color: rgba(245, 222, 179, 0.475);
+}
+
+.price-box{
+    margin: 0.5em 1.5em 0.5em 0.5em;
+    padding: 2em 0 0 2em;
+    border: 5px solid rgb(45, 45, 45);
+}
+/*
+
+
+.click-2{
+    border: none;
+    background-color: antiquewhite;
+    border-radius: 4px;
+}
+.click-2:hover{
+    cursor: pointer;
+    background-color: wheat;
+}
+.checkbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.buy-box{
+    width: 25em;
     height: 20em;
     margin: 1em ;
+    margin-left: 4em;
     padding: 1em;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+
 }
+.price-box{
+    width: 25em;
+    margin-left: 3em;
+    padding: 5em 5em;
+}
+.text-buy{
+}*/

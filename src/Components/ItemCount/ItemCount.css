@@ -1,0 +1,24 @@
+.add{
+    border: none;
+    margin-left: 1em;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.add:hover{
+    background-color: darkcyan;
+}
+.e-c{
+    width: 5em;
+    border: none;
+    border-radius: 5px;
+}
+.e-c:hover{
+    background-color: darkcyan;
+}
+
+.count{
+margin: 0 1em;
+}
+.item-count{
+    margin-left: 1em;
+}

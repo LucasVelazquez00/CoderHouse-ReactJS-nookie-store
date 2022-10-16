@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Comfortaa:wght@500;600&family=Gentium+Book+Basic:ital@0;1&display=swap');
 .nav-style{
-  background-color: rgb(255, 255, 30);
+  background-color: rgb(255, 225, 75);
   padding: 0;
   
 }
@@ -16,10 +16,11 @@
   font-family: 'Gentium Book Basic', serif;
   font-style: italic;
   list-style: none;
+  text-decoration: none;
 }
 
 .cart{
-  color: rgb(80, 80, 255);
+  color: rgb(0, 31, 141);
   
 }
 .cart-div{
@@ -27,11 +28,18 @@
   justify-content: center;
   align-items: center;
   font-family: 'Gentium Book Basic', serif;
-  color: rgb(80, 80, 255);
+  color: rgb(2, 38, 158);
   margin: 0 1em;
   width: 2.5em;
   height: 2.5em;
-  background-color: rgb(201, 236, 0);
+  background-color: rgb(28, 203, 191);
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+ul{
+  display: flex;
+}
+.link{
+  text-decoration: none;
+  color: black;
 }

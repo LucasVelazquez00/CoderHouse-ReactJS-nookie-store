@@ -1,0 +1,19 @@
+.div-detail{
+    display: flex;
+}
+.img-detail{
+    width: 30em;
+    padding: 5em 0;
+}
+.h6-detail{
+    font-size: 4em;
+}
+.detail-txt{
+    padding: 5em 0 0 5em;
+}
+.desc-txt{
+    font-size: 2em;
+}
+.price-txt{
+    line-height: 5em;
+}
